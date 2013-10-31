@@ -1,6 +1,9 @@
 <!--- coding: utf-8 --->
 # logcat.rb
 
+[![Dependency Status](https://gemnasium.com/nibua-r/logcat.rb.png)](https://gemnasium.com/nibua-r/logcat.rb)
+[![Code Climate](https://codeclimate.com/github/nibua-r/logcat.rb.png)](https://codeclimate.com/github/nibua-r/logcat.rb)
+
 * [Homepage](https://github.com/nibua-r/logcat.rb#readme)
 * [Issues](https://github.com/nibua-r/logcat.rb/issues)
 * [Email](mailto:root at renaud.io)
