@@ -19,15 +19,7 @@
 require 'readline'
 require 'stringio'
 require 'rubygems'
-
-begin
-  gem 'ruby-terminfo', '~> 0.1.1'
-  require 'terminfo'
-rescue LoadError => e
-#  warn e.message
-  warn 'Run `gem install ruby-terminfo` to install TermInfo.'
-  exit -1
-end
+require 'terminfo'
 
 TAG_WIDTH, PID_WIDTH, LEVEL_WIDTH = 20, 8, 3 # set PID_WIDTH to -1 to suppress it
 HEADER_SIZE = LEVEL_WIDTH + 1 + TAG_WIDTH + 1 + PID_WIDTH + 1

@@ -1,0 +1,1 @@
+require 'logcat.rb/version'
