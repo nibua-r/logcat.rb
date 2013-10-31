@@ -4,7 +4,7 @@ require File.expand_path('../lib/logcat.rb/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = 'logcat.rb'
-  gem.version       = Logcat.rb::VERSION
+  gem.version       = Logcatrb::VERSION
   gem.authors       = ['Renaud Aubin']
   gem.date          = Date.today
   gem.summary       = %q{A ruby utility to colorize adb logcat output.}
