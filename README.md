@@ -18,6 +18,16 @@ logcat.rb is a port of coloredlogcat.py in ruby.
 
 Enable colorized output for adb logcat.
 
+## Usage
+
+Direct usage:
+
+    $ logcat.rb
+
+Filter on errors using pipe:
+
+    $ adb logcat *:E | logcat.rb
+
 ## Install
 
 You may install logcat.rb by using:
